@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #003092;
+  }
+  
+  /* Header/logo Title */
+  .header {
+    padding: 60px;
+    text-align: center;
+    background-color: #00879E;
+    color: #CCCCCC;
+  }
+  #fast {
+    background-color: #00879E;
+    padding:5px
+    
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    display: flex;
+    background-color: #669c33;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 30%;
+    background-color: #003092;
+    padding: 20px;
+    border-right: 2px solid white;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 70%;
+    background-color: #003092;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+ 
+    width: 100%;
+    padding: 20px;
+    
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #00879E;
+    color: white;
+    display: flex;
+   
+    
+    gap: 3rem;
+    
+  }
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+  .lewis {
+    background-image: url(../img/download.jpeg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    width: 170px;
+
+
+    
+  }
+  .laferari {
+    background-image: url(../img/download\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    width: 260px;
+  
+    
+  }
+  .virgil {
+    background-image: url(../img/download\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    width: 260px;
+    
+  }
+  .veyron {
+    background-image: url(../img/download\ \(3\).jpeg);
+    background-repeat: no-repeat;
+    width: 260px;
+    
+ 
+  }
+  .navbar a {
+    align-items: center;
+  }
+  /* .latest {
+    text-align: center;
+  } */
+.mike {
+  background-image: url(../img/download\ \(4\).jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 250px;
+
+
+}
+.event {
+  background-image: url(../img/download\ \(5\).jpeg);
+  background-repeat: no-repeat;
+}
+
+.latest a {
+  gap: 2rem;
+  text-decoration: none;
+  /* align-self: baseline; */
+  color: white;
+  flex: 70%;
+}
+.latest a:hover {
+  background-color: grey;
+}
+li {
+  font-size: 20px;
+  color: white;
+}
+p {
+  color: white;
+}
+h1,div{
+  color: white;
+}
+.ftr {
+  flex: 30%;
+}
+.links {
+  background-color: #00879E;
+  
+}
+.links a {
+  gap: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.links a:hover {
+  background-color: whitesmoke;
+  
+}
+
